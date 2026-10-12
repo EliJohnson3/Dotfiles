@@ -8,7 +8,7 @@ yay -S spotify spicetify-cli
 
 Sudo pacman -S --needed git base-devel
 
-it clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
+git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 --Spicetify
 

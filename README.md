@@ -10,8 +10,10 @@ git clone https://aur.archlinux.org/yay.git && cd yay && makepkg -si
 
 --Spicetify
 
-yay -S spotify spicetify-cli
+yay -S spicetify-cli
 
-sudo chmod a+wr /opt/spotify
+The spotify-launcher package installs Spotify to a user directory. Set the path in your config:
 
-sudo chmod a+wr /opt/spotify/Apps -R
+Terminal window
+spicetify config spotify_path "$HOME/.local/share/spotify-launcher/install/usr/share/spotify"
+

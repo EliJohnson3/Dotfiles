@@ -1,6 +1,6 @@
 --Install Essentials
   
-Sudo pacman -S git curl firefox brave btop proton-vpn-gtk-app networkmanager mesa yazi steam kitty libre-office powertop ttf-jetbrains-mono-nerd
+Sudo pacman -S git curl firefox brave btop proton-vpn-gtk-app networkmanager mesa yazi steam kitty libre-office powertop ttf-jetbrains-mono-nerd spotify-launcher
 
 --Yay
 
